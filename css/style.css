@@ -1,0 +1,278 @@
+/* fonts start */
+@font-face {
+
+    /* lato font */
+    font-family:"Lato", sans-serif;
+    src: url(../fonts/lato/Lato-Black.ttf);
+
+    font-family: "Lato", sans-serif;
+    src: url(../fonts/lato/Lato-Bold.ttf);
+
+    font-family: "Lato", sans-serif;
+    src: url(../fonts/lato/Lato-Light.ttf);
+
+    font-family: "Lato", sans-serif;
+    src: url(../fonts/lato/Lato-Regular.ttf);
+
+    /* robot font */
+    font-family: "Roboto", sans-serif;
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+    font-family: "Roboto", sans-serif;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+/* fonts end */
+
+/* common start */
+body{
+    font-family:"Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8e8e8e;
+}
+/* common end */
+
+header{
+    padding: 17px 0;
+    background-color: #ffffff;
+}
+
+.m_nav{}
+
+.logo{
+    color: #333333 !important;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+   
+}
+
+.menu{}
+.menu ul li a{}
+.menu ul li:first-child a{
+    color:#333333 !important;
+    font-weight: 700;
+}
+
+/* banner slider start */
+.slider{}
+.c_item{}
+.s_img{
+   
+}
+.s_img img{}
+
+.s_text{
+   
+}
+
+.s_text h1{
+    font-size: 40px;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+.s_text p {
+    margin: 40px 0;
+  line-height: 30px;
+}
+.b_btn{
+  
+}
+
+.c_btn{
+    font-family: "Roboto", sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    font-weight: 500;
+    padding: 10px 30px;
+    font-size: 16px;
+    border: none;
+    text-transform: uppercase;
+}
+/* banner slider end */
+
+
+/* welcome section start */
+.welcome{
+   background-color: #ffffff;
+   padding: 0 0 100px 0;
+}
+.w_text{}
+
+.w_text h1{
+    color:#333333 ;
+    font-size:30px ;
+    font-weight:400 ;
+    margin: 60px 0 0;
+    text-transform: uppercase;
+}
+
+.c_title{}
+
+.w_text p{
+    margin: 20px 0 0 0;
+    line-height: 28px;
+}
+
+/* ========== */
+.course{
+    padding: 70px 0 85px;
+}
+
+.c_card {
+    margin-top: 30px;
+    padding: 50px 10px 25px;
+    border: 1px solid #8e8e8e;;
+    text-align: center;
+}
+.c_card h4{}
+.c_card p{}
+.c_card a{
+    text-decoration: none;
+    color: #8e8e8e;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* about start */
+.about{}
+.a_img{}
+.a_img img{}
+
+.a_text{
+    padding-left: 95px;
+}
+.a_text h2{
+    text-transform: uppercase;
+}
+.a_text p {
+    margin: 30px 0 0;
+    line-height: 32px;
+    word-spacing: 3px;
+}
+.a_btn{
+    margin: 56px 0 0;
+}
+/* about end */
+/* welcome section end */
+
+
+/* recent work start */
+.recent_work{
+    background-color: #f8f8f8;
+    padding: 0 0 100px;
+
+}
+
+.r_work{
+    margin: 50px 0 0;
+}
+.c_gap{
+
+}
+.c_gap li{
+    color: #8e8e8e;
+    font-size: 16px;
+    padding: 0 10px;
+    margin-right: 0px !important;
+}
+.c_gap li:hover{
+    cursor: pointer;
+}
+
+.img_wrapper{}
+
+.r_img{
+    margin: 25px  0 0;
+}
+.r_img:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.r_img img{}
+/* recent work end */
+
+
+/* why chose nipro start */
+.why_chose{
+    padding: 0 0 100px;
+}
+.content_wrapper{
+  
+}
+.w_content{
+    margin: 30px 0 0 ;
+    border-bottom: 1px solid black;
+}
+
+.w_content p{
+    line-height: 36px;
+}
+/* why chose nipro end */
+
+/* who work start */
+.who_work{
+    padding:30px 0 120px;
+    background-image: url(../images/workbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.work_title h1{
+   margin-bottom: 80px;
+  
+}
+
+.img_container {
+    margin: 25px 0 0;
+}
+.work_img{
+    
+}
+.work_img img{} 
+.work_text{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+.work_text h4{
+     color: #333333;
+     font-size: 18px;
+     font-weight: 700;
+}
+.work_text p{
+    font-family: "Roboto", sans-serif;
+
+}    
+/* who work end */
+
+
+/* best price start */
+.best_pricing{
+    padding:  0 0 100px;
+}
+.s_price{
+    margin: 25px 0 0;
+    padding: 30px 15px;
+    border: 1px solid #333333;
+}
+
+.s_price h2{
+    color: black;
+    font-weight: 700;
+}
+.c_style{
+    font-size: 16px;
+}
+
+.s_price ul li{
+    margin-top: 10px;
+}
+
+.p_btn{
+    border: 1px solid #8e8e8e;
+    padding: 10px 60px;
+    text-transform: uppercase !important;
+    font-weight: 700;
+}
+/* best price end */

@@ -1,0 +1,246 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  /* header start */
+  header{
+    padding: 5px 0;
+  }
+  .logo {
+    font-size: 20px;
+  }
+
+/* welcome section start */
+.slider{
+    display: none;
+}
+.w_text h1 { 
+    font-size: 25px;
+    margin: 30px 0 0;  
+}
+ .w_text p {
+    margin: 20px 0 0 0;
+    line-height: 25px;
+    text-align: justify;  
+}
+
+.course {
+    padding: 30px 0 70px;
+}
+
+/* welcome section   */
+/* about start */
+.welcome {
+    padding: 0 0 50px 0;
+}
+.a_text h2 {
+    margin: 20px 0 0 !important;
+}
+.a_text {
+    padding-left: 0px;
+    text-align: center;
+}
+    
+.a_text p {
+    font-size: 15px;
+    margin: 20px 0 0;
+    line-height: 27px;
+    word-spacing: 0px;
+    text-align: justify;
+}
+
+.a_btn {
+    margin: 30px 0 0;
+}
+/* recent work start */
+.recent_work {
+    padding: 0 0 50px;
+}
+.r_work {
+    margin: 30px 0 0;
+}
+.c_gap li {
+    margin: 0 0 10px;  
+    padding: 0 10px;
+   
+}
+/* recent work end */
+
+/* why chose start*/
+.why_chose {
+    padding: 20px 0 50px;
+}
+.w_content p {
+    line-height: 30px;
+}
+/* why chose end */
+
+/* who work start */
+.who_work {
+    padding: 0px 0 40px;
+   
+}
+/* who work end */
+
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* header start  */
+header {
+    padding: 10px 0;
+  
+}
+
+/* course start */
+.course{
+    padding: 50px 0 85px;
+}
+/* welcome section   */
+/* about start */
+.welcome{
+padding: 0 0 60px;
+}
+.a_text h2 {
+    margin: 20px 0 0 !important;
+}
+.a_text {
+    padding-left: 0px;
+    text-align: center;
+}
+    
+.a_text p {
+    margin: 20px 0 0;
+    line-height: 30px;
+    word-spacing: 1px;
+}
+.a_btn {
+    margin: 30px 0 0;
+}
+
+/* recent work start */
+.recent_work{
+    padding: 0 0 60px;
+}
+/* recent work end */
+
+/* why chose start*/
+.why_chose {
+    padding:0px;
+}
+.content_wrapper {
+    padding: 30px 0 80px;
+}
+.w_content p {
+    line-height: 30px;
+}
+/* why chose end */
+/* who work start */
+.who_work {
+    padding: 0px 0 40px;
+   
+}
+/* who work end */
+
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* header start   */
+header {
+    padding: 10px 0;
+  
+}
+/* slider     */
+.s_text h1 {
+    font-size: 45px;
+   
+}
+.s_text p {
+    margin: 20px 0;
+} 
+
+
+
+/* about start */
+.a_text h2 {
+    margin: 20px 0 0 !important;
+}
+.a_text {
+    padding-left: 0px;
+    text-align: center;
+}
+    
+.a_text p {
+    margin: 20px 0 0;
+    line-height: 30px;
+    word-spacing: 1px;
+}
+.a_btn {
+    margin: 30px 0 0;
+}
+/* who work start */
+.who_work {
+    padding: 0px 0 80px;
+}
+.work_title h1 {
+    margin: 10px 0 40px;
+}
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/* slider start   */
+.s_text{
+    margin: 0 -70px 10px;
+    text-align: left;
+}
+.s_text h1 {
+    font-size: 45px;
+   
+}
+.s_text p {
+    margin: 30px 0;
+}   
+/* welcome section */
+/* about start */
+.a_text {
+    padding-left: 15px;
+}
+.a_text p {
+    margin: 14px 0 0;
+    line-height: 28px;
+    word-spacing: 3px;
+}
+.a_btn {
+    margin: 8px 0 0;
+}
+
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+/* Extra large devices (large desktops
+, 1400px and up)*/
+@media (min-width: 1400px) {
+    .s_text h1 {
+        font-size: 50px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+    .s_text{
+        margin: 0 -70px 220px;
+        text-align: left;
+    }
+    .s_text p {
+        margin: 40px 0;
+        padding-right: 80px;
+    }
+}
