@@ -6,300 +6,376 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Nipro-agency</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- fav icon added -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- 7 stroke icon added -->
+     <link rel="stylesheet" href="stroke-icon/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+     <link rel="stylesheet" href="stroke-icon/pe-icon-7-stroke/css/helper.css">
+    <!-- fontawesome icon -->
+    <link rel="stylesheet" href="icon/css/all.min.css">
+    
     <!-- css link -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <link rel="stylesheet"  href="css/bootstrap.css">
+    <link rel="stylesheet"  href="css/style.css">
+    <link rel="stylesheet"  href="css/media.css">
   </head>
 
   <body>
 
     <!-- header start -->
-      <header>
-         <div class="container">
-            <!-- navbar start -->
-            <nav class="navbar navbar-expand-lg navbar-light  m_nav">
-              <div class="container-fluid p-0">
-                <!-- logo start -->
-                <a class="navbar-brand logo" href="index.html">
-                  Nipro Agency
+     <header class="sticky-top">
+      <div class="container">
+        <!-- navbar start -->
+         <nav class="navbar navbar-expand-lg navbar-light  m_nav">
+           <div class="container-fluid p-0">
+             <!-- logo start -->
+             <a class="navbar-brand logo" href="index.html">
+              Nipro Agency
+             </a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmain" aria-controls="navmain" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <!-- menu start -->
+             <div class="collapse navbar-collapse  menu" id="navmain">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+               
+                 <li class="nav-item">
+                   <a class="nav-link" href="index.html">Home</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="#welcome">Service</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="#recent">Portfolio</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="#about">About</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="#contact">Contact</a>
+                 </li>
+
+              </ul>
+
+              <!-- search -->
+              <div class="dropdown c_dropdown">
+                <a class="btn dropdown_a dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-magnifying-glass"></i>
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmain" aria-controls="navmain" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse menu" id="navmain">
-                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  
-                    <li class="nav-item">
-                      <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#welcome">Service</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#blog">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#blog">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#input"><i class="fa-solid fa-magnifying-glass"></i></a>
-                    </li>
+              
+                <div class="dropdown-menu dropdown_m">
+                  <form action="#" class="dropdown_f">
+                    <div class="row">
+                      <div class="col-10">
+                        <input type="text" class="form-control" placeholder="Search for everything" aria-label="First name">
+                      </div>
+                      <div class="col-2">
+                        <button type="submit"> <i  class="fa-solid fa-magnifying-glass"></i></button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
 
-                    
-                                     
-                  </ul>
-                
-                </div>
-              </div>
-            </nav>
-          <!-- navbar end -->
-         </div>
-      </header>
-    <!-- header end -->
-
-    <!-- banner slider start -->
-    <section class="slider">
-      <div class="container-fluid p-0">
-         <div class="row">
-          <div id="c_carousel" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#c_carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#c_carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#c_carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <!-- inner -->
-            <div class="carousel-inner">
-              <div class="carousel-item active c_item">
-                <div class="s_img">
-                  <img src="images/Niproslide.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-caption d-none d-md-block col-lg-5 s_text">
-                  <h1>We Have Talented Team</h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. hello Lorem Ipsum has been the industry's stanard dummy text ever since the  hello  bossLorem Ipsum is simply dummy text of the printing</p>
-                  <div class="b_btn">
-                    <a class="btn c_btn" href="#">Learn More</a>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item c_item">
-                <div class="s_img">
-                  <img src="images/Niproslide.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-caption d-none d-md-block col-lg-5 s_text">
-                  <h1>We Have Talented Team</h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. hello Lorem Ipsum has been the industry's stanard dummy text ever since the  hello  bossLorem Ipsum is simply dummy text of the printing</p>
-                  <div class="b_btn">
-                    <a class="btn c_btn" href="#">Learn More</a>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item c_item">
-                <div class="s_img">
-                  <img src="images/Niproslide.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-caption d-none d-md-block col-lg-5 s_text">
-                  <h1>We Have Talented Team</h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. hello Lorem Ipsum has been the industry's stanard dummy text ever since the  hello  bossLorem Ipsum is simply dummy text of the printing</p>
-                  <div class="b_btn">
-                    <a class="btn c_btn" href="#">Learn More<i class="fa-solid fa-arrow-right"></i></a>
-                  </div>
-                </div>
               </div>
              
-            </div>
-          
-          </div>
-         </div>
-      </div>
-    </section>
-    <!-- banner slider end -->
-    
-   <!-- welcome start -->
-    <section class="welcome" id="welcome">
-      <div class="container">
-          <!-- first row start -->
-           <div class="row justify-content-center">
-              <div class="col-lg-12">
-                <div class="w_text text-center">
-                   <h1 class="c_title">Welcome to Nipro</h1>
-                   <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever he to since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not  centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the er including versions of Lorem Ipsum.</p>
-                </div>
-              </div>
+             </div>
            </div>
-          <!-- first row end -->
+         </nav>
+        <!-- navbar end -->
+      </div>
+     </header>
+    <!-- header end -->
 
-          <!-- second row start -->
-           <div class="course">
-             <div class="row">
-                <div class="col-md-3 col-sm-6">
-                  <div class="c_card">
-                     <h4>Branding</h4>
-                     <p>Lorem Ipsum is simply dummy   the printing typeset industry Lorem Ipsum has been the</p>
-                     <a href="#">More <i class="fa-solid fa-arrow-right"></i></a>
+    <!-- banner section start -->
+     <section class="banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="b_slider">
+
+                <div id="cex1" class="carousel slide">
+                  <!-- inner start -->
+                  <div class="carousel-inner">
+
+                    <div class="carousel-item active b_item">
+                      <h2>We Have Talented Team</h2>
+                      <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. hello Lorem Ipsum has been the industry's stanard dummy text ever since the  hello  bossLorem Ipsum is simply dummy text of the printing</p>
+                      <a href="#" class="btn">Learn more <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                    </div>
+                    <div class="carousel-item b_item">
+                      <h2>We Have Talented Team</h2>
+                      <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. hello Lorem Ipsum has been the industry's stanard dummy text ever since the  hello  bossLorem Ipsum is simply dummy text of the printing</p>
+                      <a href="#" class="btn">Learn more <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                    </div>
+                    <div class="carousel-item b_item">
+                      <h2>We Have Talented Team</h2>
+                      <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. hello Lorem Ipsum has been the industry's stanard dummy text ever since the  hello  bossLorem Ipsum is simply dummy text of the printing</p>
+                      <div class="banner_btn">
+                        <a href="#" class="btn">Learn more<span class="btn_arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
+                      </div>
+                    </div>
+                   
                   </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                  <div class="c_card">
-                     <h4>Branding</h4>
-                     <p>Lorem Ipsum is simply dummy   the printing typeset industry Lorem Ipsum has been the</p>
-                     <a href="#">More <i class="fa-solid fa-arrow-right"></i></a>
-                  </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                  <div class="c_card">
-                     <h4>Branding</h4>
-                     <p>Lorem Ipsum is simply dummy   the printing typeset industry Lorem Ipsum has been the</p>
-                     <a href="#">More <i class="fa-solid fa-arrow-right"></i></a>
-                  </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                  <div class="c_card">
-                     <h4>Branding</h4>
-                     <p>Lorem Ipsum is simply dummy   the printing typeset industry Lorem Ipsum has been the</p>
-                     <a href="#">More <i class="fa-solid fa-arrow-right"></i></a>
-                  </div>
+                  
                 </div>
                 
-             </div>
-           </div>
-          <!-- second row end -->
+              </div>
 
-          <!-- third row start -->
-           <div class="about" id="about">
-             <div class="row">
-                <div class="col-xl-5 col-lg-6">
-                   <div class="a_img">
-                     <img src="images/about.jpg" class="w-100" alt="">
-                   </div>
-                </div>
-
-                <div class="col-xl-7 col-lg-6">
-                  <div class="a_text">
-                    <h2>About US</h2>
-                    <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industr hello Ipsum has been the industry's standard dummy text ever since the 1500s,  ian unknown printer took a galley omen book. It has survived not only five ies, but also the leap into electronic typesetting,
-                    </p>
-                    <p class="mb-0">with the release of Letraset sheets containing Lorem Ipsum passages, heo and more recently with desktop publishing software like A PageMaker including versions of Lorem Ipsum.</p>
-
-                    
-                  <div>
-                    <a href="#" class="btn c_btn border border-1 a_btn">learn more</a>
-                  </div>
-                  </div>
-
-                </div>
-             </div>
-           </div>
-          <!-- third row end -->
-      </div>
-    </section>
-   <!-- welcome start -->
-   
-   <!-- Recent work start -->
-    <section class="recent_work">
-      <div class="container">
-        <!-- first row  start-->
-        
-        <div class="row justify-content-center">
-            <div class="col-lg-12">
-              <div class="w_text text-center">
-                 <h1 class="c_title">Recent Work</h1>
+              <!-- next prev btn -->
+              <div class="pn_btn">
+                <button data-bs-target="#cex1" data-bs-slide="prev" class="btn" type="button">PREV</button>
+              <span>|</span>
+              <span>|</span>
+              <span>|</span>
+              <button data-bs-target="#cex1" data-bs-slide="next" class="btn" type="button">NEXT</button>
               </div>
             </div>
+          </div>    
+          
         </div>
-        
-        <!-- first row end -->
-
-        <!-- second row  start-->
-     
-           <div class="row justify-content-center">
-              <div class="col-lg-10">
-                 <div class="r_work text-center">
-                   <ul class="list-inline c_gap ">
-                      <li class="list-inline-item border border-1 px-2">All</li>
-                      <li class="list-inline-item">App Design</li>
-                      <li class="list-inline-item">Web Design</li>
-                      <li class="list-inline-item">UI Design</li>
-                      <li class="list-inline-item">Photoshop</li>
-                   </ul>
-                 </div>
-              </div>
-           </div>
+     </section>
+    <!-- banner section emd -->
       
-        <!-- second row end -->
-
-        <!-- third row start -->
-        <div class="img_wrapper">
-         
-            <div class="row">
-                 <!-- single img start -->
-                 <div class="col-lg-4 col-sm-6">
-                  <div class="r_img">
-                     <img src="images/recentw1.jpg" class="w-100" alt="">
-                  </div>
-                </div>
-              <!-- single img end -->
-              <!-- single img start -->
-                <div class="col-lg-4 col-sm-6">
-                  <div class="r_img">
-                     <img src="images/recentw2.jpg" class="w-100" alt="">
-                  </div>
-                </div>
-              <!-- single img end -->
-              <!-- single img start -->
-                <div class="col-lg-4 col-sm-6">
-                  <div class="r_img">
-                     <img src="images/recentw3.jpg" class="w-100" alt="">
-                  </div>
-                </div>
-              <!-- single img end -->
-              <!-- single img start -->
-                <div class="col-lg-4 col-sm-6">
-                  <div class="r_img">
-                     <img src="images/recentw4.jpg" class="w-100" alt="">
-                  </div>
-                </div>
-              <!-- single img end -->
-              <!-- single img start -->
-                <div class="col-lg-4 col-sm-6">
-                  <div class="r_img">
-                     <img src="images/recentw5.jpg" class="w-100" alt="">
-                  </div>
-                </div>
-              <!-- single img end -->
-              <!-- single img start -->
-                <div class="col-lg-4 col-sm-6">
-                  <div class="r_img">
-                     <img src="images/recentw6.jpg" class="w-100" alt="">
-                  </div>
-                </div>
-              <!-- single img end -->
+    <!-- welcome section start  -->
+    <section class="welcome" id="welcome">
+      <div class="container">
+        <!-- first row -->
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="c_title text-center">
+              <div class="arrow mx-auto"></div>
+              <h1>Welcome To Nipro</h1>
             </div>
-         
+          </div>
         </div>
-        <!-- third row end -->
+        <!-- second row -->
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="w_des">
+              <p class="text-center mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever he to since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not  centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the er including versions of Lorem Ipsum.</p>
+            </div>
+          </div>
+        </div>
+        <!-- third row -->
+        <div class="row">
 
+          <div class="col-lg-3 col-sm-6">
+            <div class="C_item text-center">
+              <div class="c_icon">
+               <i class="pe-7s-diamond"></i>
+              </div>
+              <h2>Branding</h2>
+              <hr class="mx-auto">
+              <p>Lorem Ipsum is simply dummy   the printing typeset industry Lorem Ipsum has been the</p>
+              <div class="c_btn">
+                <a href="#" class="btn">more   <span class="ar_icon"><i class="fa-solid fa-arrow-right"></i></span></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="C_item text-center">
+              <div class="c_icon">
+               <i class="pe-7s-rocket"></i>
+              </div>
+              <h2>Branding</h2>
+              <hr class="mx-auto">
+              <p>Lorem Ipsum is simply dummy   the printing typeset industry Lorem Ipsum has been the</p>
+              <div class="c_btn">
+                <a href="#" class="btn">more   <span class="ar_icon"><i class="fa-solid fa-arrow-right"></i></span></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="C_item text-center">
+              <div class="c_icon">
+               <i class="pe-7s-ribbon"></i>
+              </div>
+              <h2>Branding</h2>
+              <hr class="mx-auto">
+              <p>Lorem Ipsum is simply dummy   the printing typeset industry Lorem Ipsum has been the</p>
+              <div class="c_btn">
+                <a href="#" class="btn">more   <span class="ar_icon"><i class="fa-solid fa-arrow-right"></i></span></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="C_item text-center">
+              <div class="c_icon">
+               <i class="pe-7s-shield"></i>
+              </div>
+              <h2>Branding</h2>
+              <hr class="mx-auto">
+              <p>Lorem Ipsum is simply dummy   the printing typeset industry Lorem Ipsum has been the</p>
+              <div class="c_btn">
+                <a href="#" class="btn">more   <span class="ar_icon"><i class="fa-solid fa-arrow-right"></i></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- fourth row -->
+        <div class="about" id="about">
+          <div class="row justify-content-center">
+
+            <div class="col-lg-6 col-xl-5 d-lg-block d-none">
+              <div class="a_img">
+                <img src="images/about.jpg" class="w-100" alt="">
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-xl-7 d-flex align-items-center">
+              <div class="a_text">
+                <h2>About US</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industr hello Ipsum has been the industry's standard dummy text ever since the 1500s,  ian unknown printer took a galley omen book. It has survived not only five ies, but also the leap into electronic typesetting, remaining essentially un also the leap into electronic typesetting, remaining essentially un
+                </p>
+                <p>with the release of Letraset sheets containing Lorem Ipsum passages, heo and more recently with desktop publishing software like A PageMaker including versions of Lorem Ipsum.</p>
+                <a href="#" class="btn btn_arrow">Learn More <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </section>
+    <!-- welcome section end -->
+    
+    <!-- recent work section start -->
+    <section class="recent_work" id="recent">
+      <div class="container">
+        <!-- first row -->
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="c_title text-center">
+              <div class="arrow mx-auto"></div>
+              <h1>recent work</h1>
+            </div>
+          </div>
+        </div>
+        
+        <!-- second row -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+           <div class="work_category">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">all</li>
+              <li class="list-inline-item">app design</li>
+              <li class="list-inline-item">web design</li>
+              <li class="list-inline-item">ui design</li>
+              <li class="list-inline-item">photoshop</li>
+            </ul>
+           </div>
+          </div>
+        </div>
+
+        <!-- third row -->
+
+        <div class="row">
+          
+         
+             <!-- single item start -->
+             <div class="col-lg-4 col-sm-6">
+              <div class="work_img">
+                <img src="images/recentw1.jpg" class="w-100" alt="">
+                <div class="work_icon">
+                  <i class="pe-7s-plus"></i>
+                </div>
+                <div class="work_text">
+                  <h5>Project Title</h5>
+                  <p class="mb-0">App Design</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <div class="work_img">
+                <img src="images/recentw2.jpg" class="w-100" alt="">
+                <div class="work_icon">
+                  <i class="pe-7s-plus"></i>
+                </div>
+                <div class="work_text">
+                  <h5>Project Title</h5>
+                  <p class="mb-0">App Design</p>
+                </div>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <div class="work_img">
+                <img src="images/recentw3.jpg" class="w-100" alt="">
+                <div class="work_icon">
+                  <i class="pe-7s-plus"></i>
+                </div>
+                <div class="work_text">
+                  <h5>Project Title</h5>
+                  <p class="mb-0">App Design</p>
+                </div>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <div class="work_img">
+                <img src="images/recentw4.jpg" class="w-100" alt="">
+                <div class="work_icon">
+                  <i class="pe-7s-plus"></i>
+                </div>
+                <div class="work_text">
+                  <h5>Project Title</h5>
+                  <p class="mb-0">App Design</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="work_img">
+                <img src="images/recentw5.jpg" class="w-100" alt="">
+                <div class="work_icon">
+                  <i class="pe-7s-plus"></i>
+                </div>
+                <div class="work_text">
+                  <h5>Project Title</h5>
+                  <p class="mb-0">App Design</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="work_img">
+                <img src="images/recentw6.jpg" class="w-100" alt="">
+                <div class="work_icon">
+                  <i class="pe-7s-plus"></i>
+                </div>
+                <div class="work_text">
+                  <h5>Project Title</h5>
+                  <p class="mb-0">App Design</p>
+                </div>
+              </div>
+              
+            </div>
+           </div>
+          
+        
 
       </div>
     </section>
-   <!-- Recent work end -->
+    <!-- recent work section end -->
 
-   <!-- why choose start -->
-    <section class="why_chose">
+    <!-- why choose start -->
+     <section class="why_chose">
       <div class="container">
-          <!-- first row start -->
-          <div class="row justify-content-center">
-            <div class="col-lg-12">
-              <div class="w_text text-center">
-                 <h1 class="c_title">Why Choose Nipro</h1>
-              </div>
+          <!-- first row -->
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="c_title text-center">
+              <div class="arrow mx-auto"></div>
+              <h1>why choose nipro</h1>
             </div>
-         </div>
-        <!-- first row end -->
+          </div>
+        </div>
 
         <!-- second row start -->
          <div class="content_wrapper">
@@ -307,7 +383,7 @@
               <!-- single content start -->
                <div class="col-lg-4 col-sm-6">
                  <div class="w_content">
-                  <ul class="list-inline">
+                  <ul class="list-inline d-flex align-items-center">
                     <li class="list-inline-item"><i class="fa-regular fa-gem"></i></li>
                     <li class="list-inline-item">Creative Design</li>
                   </ul>
@@ -319,7 +395,7 @@
               <!-- single content start -->
                <div class="col-lg-4 col-sm-6">
                  <div class="w_content">
-                  <ul class="list-inline">
+                  <ul class="list-inline  d-flex align-items-center">
                     <li class="list-inline-item"><i class="fa-solid fa-bezier-curve"></i></li>
                     <li class="list-inline-item">Minimal Design</li>
                   </ul>
@@ -331,7 +407,7 @@
               <!-- single content start -->
                <div class="col-lg-4 col-sm-6">
                  <div class="w_content">
-                  <ul class="list-inline">
+                  <ul class="list-inline  d-flex align-items-center">
                     <li class="list-inline-item"><i class="fa-regular fa-image"></i></li>
                     <li class="list-inline-item">Minimal Design</li>
                   </ul>
@@ -343,7 +419,7 @@
               <!-- single content start -->
                <div class="col-lg-4 col-sm-6">
                  <div class="w_content">
-                  <ul class="list-inline">
+                  <ul class="list-inline  d-flex align-items-center">
                     <li class="list-inline-item"><i class="fa-regular fa-clock"></i></li>
                     <li class="list-inline-item">Full Responsive</li>
                   </ul>
@@ -355,7 +431,7 @@
               <!-- single content start -->
                <div class="col-lg-4 col-sm-6">
                  <div class="w_content">
-                  <ul class="list-inline">
+                  <ul class="list-inline  d-flex align-items-center">
                     <li class="list-inline-item"><i class="fa-solid fa-gear"></i></li>
                     <li class="list-inline-item">Updates & Support</li>
                   </ul>
@@ -367,7 +443,7 @@
               <!-- single content start -->
                <div class="col-lg-4 col-sm-6">
                  <div class="w_content">
-                  <ul class="list-inline">
+                  <ul class="list-inline  d-flex align-items-center">
                     <li class="list-inline-item"><i class="fa-solid fa-sliders"></i></li>
                     <li class="list-inline-item">Easy to Customize</li>
                   </ul>
@@ -382,176 +458,492 @@
         <!-- second row end -->
 
       </div>
-    </section>
-   <!-- why choose end -->
-    
-   <!-- who work section start -->
-    <section class="who_work">
+     </section>
+    <!-- why choose end -->
+
+    <!-- who work section start -->
+     <section class="who_work">
       <div class="container">
-         <!-- first row start --> 
+      
+          <!-- first row -->
           <div class="row justify-content-center">
-            <div class="col-lg-12 col-md-6">
-              <div class="w_text work_title text-center">
-                 <h1 class="c_title ">Who Work With US</h1>
+            <div class="col-lg-5">
+              <div class="c_title w_work_title text-center">
+                <div class="arrow mx-auto"></div>
+                <h1>who work with us</h1>
               </div>
             </div>
-         </div>
-        <!-- first row end -->
-         <!-- second row end -->
-         <div class="row">  
-              <!-- single item start -->
-               <div class="col-lg-3 col-sm-6">
-                 <div class="img_container">
-                  <div class="work_img">
-                    <img src="images/person1.jpg" class="w-100" alt="">
-                 </div>
-                 <div class="work_text">
-                   <h4>Ashiful Haque Pappu</h4>
-                   <p class="mb-0">UI/UX Designer</p>
-                 </div>
-                 </div>
-               </div>
-              <!-- single item end -->
-              <!-- single item start -->
-               <div class="col-lg-3 col-sm-6">
-                 <div class="img_container">
-                  <div class="work_img">
-                    <img src="images/person2.jpg" class="w-100" alt="">
-                 </div>
-                 <div class="work_text">
-                   <h4>Al-Rayhan</h4>
-                   <p class="mb-0">UI/UX Designer</p>
-                 </div>
-                 </div>
-               </div>
-              <!-- single item end -->
-              <!-- single item start -->
-               <div class="col-lg-3 col-sm-6">
-                 <div class="img_container">
-                  <div class="work_img">
-                    <img src="images/person3.jpg" class="w-100" alt="">
-                 </div>
-                 <div class="work_text">
-                   <h4>Santush Deb Nath</h4>
-                   <p class="mb-0">UI/UX Designer</p>
-                 </div>
-                 </div>
-               </div>
-              <!-- single item end -->
-              <!-- single item start -->
-               <div class="col-lg-3 col-sm-6">
-                 <div class="img_container">
-                  <div class="work_img">
-                    <img src="images/person4.jpg" class="w-100" alt="">
-                 </div>
-                 <div class="work_text">
-                   <h4>Saif Ullah Patowary</h4>
-                   <p class="mb-0">UI/UX Designer</p>
-                 </div>
-                 </div>
-               </div>
-              <!-- single item end -->
-           
-         </div>
-         <!-- second row end -->
-      </div>
-    </section>
-   <!-- who work section end -->
+          </div>
+          <!-- first row -->
+  
+        <!-- second row -->
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="who_item">
+              <div class="who_img">
+                <img src="images/person1.jpg" class="w-100" alt="">
+                <div class="who_text text-center">
+                  <h4>Ashiful Haque Pappu</h4>
+                  <span>UI/UX Designer</span>
+                </div> 
+              </div>
 
-
-   <!-- Best pricing section start -->
-    <section class="best_pricing">
-      <div class="container">
-        <!-- first row start -->
-         <!-- first row start --> 
-         <div class="row justify-content-center">
-          <div class="col-lg-12">
-            <div class="w_text text-center">
-               <h1 class="c_title">best pricing</h1>
+              <div class="social_icon">
+                <ul class="list-unstyled mb-0">
+                  <li><i class="fa-brands fa-facebook-f"></i></li>
+                  <li><i class="fa-brands fa-twitter"></i></li>
+                  <li><i class="fa-solid fa-globe"></i></li>
+                  <li><i class="fa-brands fa-instagram"></i></li>
+                </ul>
+              </div>
             </div>
           </div>
-       </div>
-      <!-- first row end -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="who_item">
+              <div class="who_img">
+                <img src="images/person2.jpg" class="w-100" alt="">
+                <div class="who_text text-center">
+                  <h4>Al-Rayhan</h4>
+                  <span>Interface Designer</span>
+                </div> 
+              </div>
 
-      <!-- second row start -->
-       <div class="row">
-           <!-- single price start -->
-           <div class="col-lg-3 col-sm-6">
-             <div class="s_price">
-                <h2>$29 <span class="c_style">/ Per Month</span></h2>
-                <ul class="list-unstyled">
-                  <li>-  1Th Storage</li>
-                  <li>-  Unlimited Members
-                  </li>
-                  <li>-  50 Project</li>
-                  <li>-  70GB Bandwidth</li>
-                  <li>-  24/7 Customer Support</li>
+              <div class="social_icon">
+                <ul class="list-unstyled mb-0">
+                  <li><i class="fa-brands fa-facebook-f"></i></li>
+                  <li><i class="fa-brands fa-twitter"></i></li>
+                  <li><i class="fa-solid fa-globe"></i></li>
+                  <li><i class="fa-brands fa-instagram"></i></li>
                 </ul>
-                <div class="text-center text-uppercase">
-                  <button type="submit" class="btn p_btn">Sign Up</button>
-                </div>
-             </div>
-           </div>
-            <!-- single price start -->
-           <!-- single price start -->
-           <div class="col-lg-3 col-sm-6">
-             <div class="s_price">
-                <h2>$59 <span class="c_style">/ Per Month</span></h2>
-                <ul class="list-unstyled">
-                  <li>-  1Th Storage</li>
-                  <li>-  Unlimited Members
-                  </li>
-                  <li>-  50 Project</li>
-                  <li>-  70GB Bandwidth</li>
-                  <li>-  24/7 Customer Support</li>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="who_item">
+              <div class="who_img">
+                <img src="images/person3.jpg" class="w-100" alt="">
+                <div class="who_text text-center">
+                  <h4>Santush Deb Nath</h4>
+                  <span>Web Developer</span>
+                </div> 
+              </div>
+
+              <div class="social_icon">
+                <ul class="list-unstyled mb-0">
+                  <li><i class="fa-brands fa-facebook-f"></i></li>
+                  <li><i class="fa-brands fa-twitter"></i></li>
+                  <li><i class="fa-solid fa-globe"></i></li>
+                  <li><i class="fa-brands fa-instagram"></i></li>
                 </ul>
-                <div class="text-center text-uppercase">
-                  <button type="submit" class="btn p_btn">Sign Up</button>
-                </div>
-             </div>
-           </div>
-            <!-- single price start -->
-           <!-- single price start -->
-           <div class="col-lg-3 col-sm-6">
-             <div class="s_price">
-                <h2>$89 <span class="c_style">/ Per Month</span></h2>
-                <ul class="list-unstyled">
-                  <li>-  1Th Storage</li>
-                  <li>-  Unlimited Members
-                  </li>
-                  <li>-  50 Project</li>
-                  <li>-  70GB Bandwidth</li>
-                  <li>-  24/7 Customer Support</li>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="who_item">
+              <div class="who_img">
+                <img src="images/person4.jpg" class="w-100" alt="">
+                <div class="who_text text-center">
+                  <h4>Saif Ullah Patowary</h4>
+                  <span>Web Designer</span>
+                </div> 
+              </div>
+
+              <div class="social_icon">
+                <ul class="list-unstyled mb-0">
+                  <li><i class="fa-brands fa-facebook-f"></i></li>
+                  <li><i class="fa-brands fa-twitter"></i></li>
+                  <li><i class="fa-solid fa-globe"></i></li>
+                  <li><i class="fa-brands fa-instagram"></i></li>
                 </ul>
-                <div class="text-center text-uppercase">
-                  <button type="submit" class="btn p_btn">Sign Up</button>
-                </div>
-             </div>
-           </div>
-            <!-- single price start -->
-           <!-- single price start -->
-           <div class="col-lg-3 col-sm-6">
-             <div class="s_price">
-                <h2>$199 <span class="c_style">/ Per Month</span></h2>
-                <ul class="list-unstyled">
-                  <li>-  1Th Storage</li>
-                  <li>-  Unlimited Members
-                  </li>
-                  <li>-  50 Project</li>
-                  <li>-  70GB Bandwidth</li>
-                  <li>-  24/7 Customer Support</li>
-                </ul>
-                <div class="text-center text-uppercase">
-                  <button type="submit" class="btn p_btn">Sign Up</button>
-                </div>
-             </div>
-           </div>
-            <!-- single price start -->
-       </div>
-      <!-- second row end -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- who work section end -->
+
+    <!-- Best pricing section start -->
+     <section class="best_pricing">
+      <div class="container">
+
+        <!-- first row -->
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="c_title w_work_title text-center">
+              <div class="arrow mx-auto"></div>
+              <h1>best pricing</h1>
+            </div>
+          </div>
+        </div>
+        <!-- first row -->
+             
+        <div class="row">
+          <!-- single pricing start -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="s_price">
+              <div class="price_q b_price">
+                 <h4 class="">basic</h4>
+              </div>
+              <h2>$29</h2><span>/Per Month</span>
+  
+              <ul class="list-unstyled">
+                <li>-  1Th Storage</li>
+                <li>-  Unlimited Members</li>
+                <li>-  50 Project</li>
+                <li>-  70GB Bandwidth</li>
+                <li>-  24/7 Customer Support</li>
+              </ul>
+  
+              <button>Sign Up <span><i class="fa-solid fa-arrow-right"></i></span></button>
+  
+            </div>
+          </div>
+          <!-- single pricing end -->
+          <!-- single pricing start -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="s_price">
+              <div class="price_q">
+                 <h4>Standard</h4>
+              </div>
+              <h2>$29</h2><span>/Per Month</span>
+  
+              <ul class="list-unstyled">
+                <li>-  1Th Storage</li>
+                <li>-  Unlimited Members</li>
+                <li>-  50 Project</li>
+                <li>-  70GB Bandwidth</li>
+                <li>-  24/7 Customer Support</li>
+              </ul>
+  
+              <button>Sign Up <span><i class="fa-solid fa-arrow-right"></i></span></button>
+  
+            </div>
+          </div>
+          <!-- single pricing end -->
+          <!-- single pricing start -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="s_price">
+              <div class="price_q">
+                 <h4>Enterprise</h4>
+              </div>
+              <h2>$29</h2><span>/Per Month</span>
+  
+              <ul class="list-unstyled">
+                <li>-  1Th Storage</li>
+                <li>-  Unlimited Members</li>
+                <li>-  50 Project</li>
+                <li>-  70GB Bandwidth</li>
+                <li>-  24/7 Customer Support</li>
+              </ul>
+  
+              <button>Sign Up <span><i class="fa-solid fa-arrow-right"></i></span></button>
+  
+            </div>
+          </div>
+          <!-- single pricing end -->
+          <!-- single pricing start -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="s_price">
+              <div class="price_q">
+                 <h4>Platinum</h4>
+              </div>
+              <h2>$29</h2><span>/Per Month</span>
+  
+              <ul class="list-unstyled">
+                <li>-  1Th Storage</li>
+                <li>-  Unlimited Members</li>
+                <li>-  50 Project</li>
+                <li>-  70GB Bandwidth</li>
+                <li>-  24/7 Customer Support</li>
+              </ul>
+  
+              <button type="submit">Sign Up <span><i class="fa-solid fa-arrow-right"></i></span></button>
+  
+            </div>
+          </div>
+          <!-- single pricing end -->
+        
+        </div>
+
+      </div>
+     </section>
+    <!-- Best pricing section end -->
+
+    <!-- nipro tempalate -->
+    <section class="nipro_template">
+      <div class="container">
+       <div class="row d-flex align-items-center">
+            <div class="col-lg-4 col-sm-7">
+              <div class="nipro_C">
+                <h4 class="mb-0">Nipro  |  Responsive HTML Template</h4>
+              </div>
+            </div>
+            <div class="offset-lg-5  col-lg-3 col-sm-5">
+              <div class="nipro_b">
+                <button type="submit">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></button>
+              </div>
+            </div>
+        </div>
       </div>
     </section>
-   <!-- Best pricing section end -->
+    <!-- nipro tempalate -->
+
+    <!-- slide_contract start -->
+    <section class="slide_contract">
+      <div class="container">
+          
+          <div class="row">
+
+            <div class="col-lg-11 col-12">
+              <div class="slide_Content">
+                <!-- carousel start -->
+                <div id="sl_c" class="carousel slide slide_inner">
+                  <!-- inner -->
+                  <div class="carousel-inner">
+                    <!-- item start -->
+
+                    <div class="carousel-item active">
+                          
+                        <div class="row">
+                          <div class="col-lg-4">
+                            <div class="slide_img">
+                               <div class="s_img">
+                                <img src="images/person2.jpg" class="d-block w-100" alt="...">
+                               </div>
+                               <div class="s_icon">
+                                <i class="fa-solid fa-quote-left"></i>
+                               </div>
+                            </div>
+                          </div>
+  
+                          <div class="col-lg-8 d-flex align-items-center">
+                            <div class="slide_text">
+                            <h5>Al-Rayhan</h5>
+                            <h6>Co-Founder & COO</h6>
+                            <span>DeviserWeb</span>
+                            <p class="ps1 mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            </p>
+                            <p class="ps2 mb-0">Lcenturies, but also the leap into electronic typesetting, remaining essentially  like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                          </div>
+                          </div>
+                        </div>
+  
+                    </div>
+
+                    <div class="carousel-item ">
+                          
+                        <div class="row">
+                          <div class="col-lg-4">
+                            <div class="slide_img">
+                               <div class="s_img">
+                                <img src="images/person3.jpg" class="d-block w-100" alt="...">
+                               </div>
+                               <div class="s_icon">
+                                <i class="fa-solid fa-quote-left"></i>
+                               </div>
+                            </div>
+                          </div>
+  
+                          <div class="col-lg-8 d-flex align-items-center">
+                            <div class="slide_text">
+                            <h5>Al-Rayhan</h5>
+                            <h6>Co-Founder & COO</h6>
+                            <span>DeviserWeb</span>
+                            <p class="ps1 mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            </p>
+                            <p class="ps2 mb-0">Lcenturies, but also the leap into electronic typesetting, remaining essentially  like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                          </div>
+                          </div>
+                        </div>
+  
+                    </div>
+
+                    <div class="carousel-item ">
+                          
+                        <div class="row">
+                          <div class="col-lg-4">
+                            <div class="slide_img">
+                               <div class="s_img">
+                                <img src="images/person4.jpg" class="d-block w-100" alt="...">
+                               </div>
+                               <div class="s_icon">
+                                <i class="fa-solid fa-quote-left"></i>
+                               </div>
+                            </div>
+                          </div>
+  
+                          <div class="col-lg-8 d-flex align-items-center">
+                            <div class="slide_text">
+                            <h5>Al-Rayhan</h5>
+                            <h6>Co-Founder & COO</h6>
+                            <span>DeviserWeb</span>
+                            <p class="ps1 mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            </p>
+                            <p class="ps2 mb-0">Lcenturies, but also the leap into electronic typesetting, remaining essentially  like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                          </div>
+                          </div>
+                        </div>
+  
+                    </div>
+
+                    <div class="carousel-item ">
+                          
+                        <div class="row">
+                          <div class="col-lg-4">
+                            <div class="slide_img">
+                               <div class="s_img">
+                                <img src="images/person1.jpg" class="d-block w-100" alt="...">
+                               </div>
+                               <div class="s_icon">
+                                <i class="fa-solid fa-quote-left"></i>
+                               </div>
+                            </div>
+                          </div>
+  
+                          <div class="col-lg-8 d-flex align-items-center">
+                            <div class="slide_text">
+                            <h5>Al-Rayhan</h5>
+                            <h6>Co-Founder & COO</h6>
+                            <span>DeviserWeb</span>
+                            <p class="ps1 mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            </p>
+                            <p class="ps2 mb-0">Lcenturies, but also the leap into electronic typesetting, remaining essentially  like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                          </div>
+                          </div>
+                        </div>
+  
+                    </div>
+  
+                  </div>  
+                      
+                </div>
+  
+              </div>
+            </div> 
+                  
+            <div class="col-lg-1 col-12">
+              <div class="slide_button">
+                <button data-bs-target="#sl_c" data-bs-slide="prev" class="pre_btn border-0" type="button">PREV</button>
+                <span>|</span>
+                <span class="hglgt_pipe">|</span>
+                <span>|</span>
+                <button data-bs-target="#sl_c" data-bs-slide="next" class="next_btn border-0" type="button">NEXT</button>
+              </div> 
+            </div>  
+
+          </div>
+          
+      </div>
+    </section>
+    <!-- slide_contract start -->
+
+    <!-- contract form start -->
+    <section class="contract_Form" id="contact">
+      <div class="container">
+       <div class="form_c">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <form action="#">
+              <div class="row">
+                <div class="con_title">
+                  <h2 class="text-center">contract us</h2>
+                </div>
+
+                <div class="form_container">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                      <input type="text" class="form-control f_control" placeholder="First name">
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <input type="text" class="form-control f_control" placeholder="Last name">
+                    </div>
+                  </div>
+      
+                  <div class="col-12">
+                    <input type="email" class="form-control f_control" placeholder="Email">
+                  </div>
+  
+                  <div class="col-12">
+                    <textarea  name="textarea" id="textarea" class="w-100 t_area f_control" placeholder="Enter your message"></textarea>
+                  </div>
+  
+                  <div class="col-lg-12 text-center form_btn">
+                    <button type="submit">send now <span><i class="fa-solid fa-arrow-right"></i></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+           </div>
+        </div>
+       </div>
+      </div>
+    </section>
+    <!-- contract form end -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="container">
+        <!-- first row -->
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="c_title text-center">
+              <div class="arrow mx-auto"></div>
+              <h1>nipro agency</h1>
+            </div>
+          </div>
+        </div>
+        <!-- first row -->
+        <div class="footer_top">
+          <div class="row justify-content-center">
+            <div class="col-lg-7">
+               <div class="ft_cont text-center">
+                 <p>Lorem Ipsum is simply dummy text of lol he the printing and typesetting industry. Lorem Ipsum 
+                  Has been the koi jabi mama</p>
+                 <ul class="list-unstyled mb-0">
+                  <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/EmonNath01"><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa-solid fa-globe"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                 </ul>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid p-0">
+        <div class="footer_bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-sm-12 order-sm-2 order-lg-1 order-2">
+                <div class="c_right">
+                 <span>All rights reserved NIPRO AGENCY  |  By : Coder Emon</span>
+                </div>
+              </div>
+   
+              <div class="col-lg-6 col-sm-12 order-sm-1 order-lg-2 order-1">
+                <div class="c_contact">
+                 <ul class="list-unstyled mb-0">
+                   <li class="list-inline-item"><a href="#">Support</a></li>
+                   <li class="list-inline-item"><a href="#">sitemap</a></li>
+                   <li class="list-inline-item"><a href="#">contact us</a></li>
+                   <li class="list-inline-item"><a href="#">terms of use</a></li>
+                 </ul>
+                </div>
+              </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+
+
+
 
 
     <!-- script link -->
