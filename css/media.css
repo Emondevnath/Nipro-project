@@ -1,246 +1,1021 @@
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-  /* header start */
-  header{
-    padding: 5px 0;
-  }
-  .logo {
+/* common title style  */
+.c_title h1 {
     font-size: 20px;
-  }
+    margin: 15px 0px 0px !important;
+}
+/* common title style */
+
+/* header start */
+.navbar-toggler {
+    padding:0px 5px;
+}    
+header {
+    padding:0;
+}
+.logo {
+    font-size: 25px;
+}
+.menu ul li{
+    margin:5px 0;
+}
+.menu ul li a {
+    display: inline-block;
+    margin: 0px !important;
+}
+
+/* search start */
+.dropdown_m {
+    width: 300px;
+    padding: 5px 15px;
+}
+.dropdown_m[data-bs-popper] {
+ top: 112%;
+ left: -5px;
+ margin-top: -2.875rem;
+ right: 10px;
+}
+/* search end */
+
+/* header end */
+
+/* banner start */
+.b_slider {
+    margin: 50px 0 50px; 
+}
+.b_item h2 {
+    font-size:25px;
+}
+.b_item p {
+    font-size: 15px;
+    margin-top:20px !important;
+    line-height: 25px;
+    padding-right:0px;
+    text-align: justify;
+    word-spacing: -1px;
+}
+.b_item a{
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 8px 10px;
+}
+.pn_btn{
+   text-align: center; 
+}
+.pn_btn .btn{
+    font-size: 15px;
+}
+/* banner end */
 
 /* welcome section start */
-.slider{
-    display: none;
+.welcome {     
+  padding: 0 0 50px;
 }
-.w_text h1 { 
-    font-size: 25px;
-    margin: 30px 0 0;  
+.arrow {
+    width: 1px;
+    height: 30px;
 }
- .w_text p {
-    margin: 20px 0 0 0;
-    line-height: 25px;
-    text-align: justify;  
+.C_item{
+    margin: 40px 0 0 !important;
+}
+.w_des p {
+    font-size: 15px;
+    margin: 20px auto 40px !important;
+    text-align: justify !important;
+    word-spacing: 2px;
+}
+.C_item {
+    margin: 25px 0 0;
+}
+.C_item p {
+    padding: 0px 15px;
 }
 
-.course {
-    padding: 30px 0 70px;
-}
-
-/* welcome section   */
-/* about start */
-.welcome {
-    padding: 0 0 50px 0;
-}
-.a_text h2 {
-    margin: 20px 0 0 !important;
-}
-.a_text {
-    padding-left: 0px;
+/*w inner about */
+.about{
+    margin-top: 40px;
     text-align: center;
 }
-    
+.a_text {
+    padding-left: 0px !important;
+}
+.a_text h2{
+    font-size: 20px;
+}
 .a_text p {
-    font-size: 15px;
-    margin: 20px 0 0;
-    line-height: 27px;
-    word-spacing: 0px;
+    word-spacing: 2px !important;
+    line-height: 28px !important;
+    margin-top: 20px;
+    margin-bottom: 20px !important;
     text-align: justify;
 }
-
-.a_btn {
-    margin: 30px 0 0;
+.a_text .btn_arrow {
+  
+    padding: 8px 10px;
+    margin-top: 20px;
 }
+/*w inner about end*/
+/* welcome section end */
+
 /* recent work start */
 .recent_work {
-    padding: 0 0 50px;
+    padding-bottom: 40px !important;
 }
-.r_work {
-    margin: 30px 0 0;
+.work_category {
+    margin-top: 40px;
 }
-.c_gap li {
-    margin: 0 0 10px;  
-    padding: 0 10px;
-   
+
+.work_img {
+    margin-bottom: 105px;
+}
+
+.work_icon{
+    margin-top: 130px !important;
+}
+.work_icon i{
+    font-size: 45px; 
+}
+.work_text {
+    padding: 13px 0;
+    margin: -79px 0; 
 }
 /* recent work end */
 
-/* why chose start*/
+
+/* why choose start */
 .why_chose {
-    padding: 20px 0 50px;
+    padding: 0 0 40px;
+}
+.w_content ul li:first-child {
+    font-size: 35px;
+}
+.w_content ul li:last-child {
+    padding-left: 10px;
 }
 .w_content p {
     line-height: 30px;
 }
-/* why chose end */
+/* why choose start */
 
 /* who work start */
 .who_work {
-    padding: 0px 0 40px;
-   
+    padding-bottom: 40px;
+}
+.w_work_title {
+    padding-bottom: 40px;
+}
+.who_text h4 {
+    font-size: 16px;
+}
+.who_text span {
+    font-size: 15px;
+}
+.social_icon {  
+    margin: -365px 0 0;
+}
+.social_icon ul li { 
+    font-size: 25px;
+    padding: 6px 12px;
+}
+.who_text {
+    padding: 10px 0;
 }
 /* who work end */
+
+/* best pricing start */
+.best_pricing {
+    padding-bottom: 40px;
+}
+.b_price {
+    width: 55px !important;
+}
+.price_q {
+    width: 105px;
+}
+.price_q h4 {
+    font-size: 16px;
+}
+.s_price h2 {
+    font-size: 30px;
+}
+.s_price span {
+    font-size: 16px;
+   
+}
+
+.s_price button {
+    padding: 0px 60px;
+  }
+/* best pricing end */
+
+/*Nipro template */
+.nipro_C{
+    text-align: center;
+}
+.nipro_b{
+    text-align: center !important;
+}
+.nipro_b button {
+    padding: 8px 48px;
+    margin-left: 0;
+    margin-top: 20px;
+}   
+/* nipro template */
+
+/* slide contact start */
+.slide_contract {
+    padding: 40px 0;
+}
+.slide_Content {
+    padding: 15px 10px;
+}
+.slide_text{
+    text-align: center !important;
+}
+.slide_text h5{
+    margin-top: 20px ;
+}
+.slide_text p{
+    margin-top: 15px;
+    text-align: justify;
+    word-spacing: 1px;
+}
+.slide_button {
+    margin-top: 20px;
+    height: 60px;
+    writing-mode: horizontal-tb;
+}
+.slide_button button {
+    margin: 18px 40px;
+    font-size: 14px;
+}
+/* slide contact end */
+
+/* contract form start */
+.contract_Form {
+    padding-bottom: 40px;
+}
+.con_title {
+    margin: -12px 0 23px;
+}
+.con_title h2 {
+    font-size: 20px;
+  width: 170px;
+}
+.f_control {
+    margin-bottom: 20px;
+}
+.form-control {
+    margin-bottom: 25px;
+}
+.form_container {
+    margin:0;
+    padding: 30px;
+}
+.form_btn button {
+    margin-top: 0px;
+  
+}
+/* contract form end */
+
+/* footer start */
+.footer_top {
+    padding-bottom: 40px;
+}
+.c_contact ul li{
+   
+    margin-top: 10px;
+   
+}
+.c_right {
+    margin-top:10px;
+    text-align: center;
+    padding: 0 10px;
+}
+.ft_cont ul li {
+   
+    padding: 5px 14px;
+    margin: 10px;
+}
+.ft_cont p {
+    margin: 20px 0;
+    padding:0 21px;
+}
+
+.c_contact {
+    text-align: center;
+}
+
+.c_right span {
+  
+    line-height: 36px;
+}
+.footer_bottom {
+   
+    padding: 15px 0;
+}
+
+/* footer end */
 
 
 }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-/* header start  */
+/* header start */
 header {
-    padding: 10px 0;
+    padding: 5px 0;
+}
+.menu ul li a {
+    margin: 0px !important;
   
 }
 
-/* course start */
-.course{
-    padding: 50px 0 85px;
+/* search start */
+.dropdown_m[data-bs-popper] {
+    left: -5px;
+    margin-top: -2.875rem;
 }
-/* welcome section   */
-/* about start */
-.welcome{
-padding: 0 0 60px;
+/* search end */
+/* header end */
+
+/* banner start */
+.b_slider {
+    margin: 60px 0 60px;
 }
-.a_text h2 {
-    margin: 20px 0 0 !important;
+.b_item h2 {
+    font-size:40px;
 }
-.a_text {
-    padding-left: 0px;
-    text-align: center;
-}
-    
-.a_text p {
-    margin: 20px 0 0;
+.b_item p {
+    margin-top: 30px;
     line-height: 30px;
-    word-spacing: 1px;
+    padding-right:90px;
 }
-.a_btn {
-    margin: 30px 0 0;
+.b_item a{
+    margin-top: 30px;
+}
+/* banner end */
+
+/* welcome section start */
+.welcome {
+  
+    padding: 0 0 50px;
+}
+.arrow {
+    width: 2px;
+    height: 40px;
+}
+.w_des p {
+    margin: 30px auto 60px !important;
+    text-align: justify !important;
+    word-spacing: 2px;
+}
+.C_item {
+    margin: 25px 0 0;
+
 }
 
+/* about */
+.about{
+    margin-top: 60px;
+    text-align: center;
+}
+.a_text {
+    padding-left: 0px !important;
+}
+.a_text p {
+    text-align: justify;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+}
+.a_text .btn_arrow {
+  
+    margin-top: 15px;
+}
+/* about */
+/* welcome section end */
+
 /* recent work start */
-.recent_work{
-    padding: 0 0 60px;
+.recent_work {
+    padding-bottom: 50px !important;
+}
+.work_category {
+    margin-top: 50px;
+}
+
+.work_img {
+    
+    margin-bottom: 105px;
+}
+
+.work_icon {
+    margin-top: 80px !important;
+}
+
+.work_icon i{
+    font-size: 40px;
+}
+.work_text {
+  
+    padding: 13px 0;
+    margin: -79px 0;
+   
 }
 /* recent work end */
 
-/* why chose start*/
+/* why choose start */
 .why_chose {
-    padding:0px;
-}
-.content_wrapper {
-    padding: 30px 0 80px;
+    padding: 0 0 50px;
 }
 .w_content p {
-    line-height: 30px;
+    line-height: 32px;
 }
-/* why chose end */
+/* why choose start */
+
 /* who work start */
 .who_work {
-    padding: 0px 0 40px;
-   
+    padding-bottom: 50px;
+}
+.w_work_title {
+    padding-bottom: 50px;
+}
+.social_icon { 
+    margin: -290px 0 0;
+}
+.social_icon ul li { 
+    font-size: 24px;
+    padding: 2px 8px;
 }
 /* who work end */
 
+/* best pricing start */
+.best_pricing {
+    padding-bottom: 50px;
+}
+.b_price {
+    width: 55px !important;
+}
+.price_q {
+    width: 105px;
+}
+.price_q h4 {
+    font-size: 16px;
+}
+.s_price h2 {
+    font-size: 30px;
+}
+.s_price span {
+    font-size: 16px;
+   
+}
+.s_price button {
+    padding: 0px 54px !important;
+  }
+/* best pricing end */
+/* nipro template */
+.nipro_b{
+    text-align: right;
+}
+.nipro_b button {
+   
+    padding: 8px 45px;
+    margin-left: 6px;
+}
+/* nipro template */
+
+/* contact form start */
+ 
+/* contact form end */
+
+/* slide contact start */
+.slide_contract {
+    padding: 50px 0;
+}
+.s_icon {
+    position: absolute;
+    margin: -460px 25px;
+}
+.slide_Content {
+    padding: 20px 20px;
+}
+.slide_text{
+    text-align: center;
+}
+.slide_text h5{
+    margin-top: 20px;
+}
+.slide_text p{
+    margin-top: 20px;
+}
+.slide_button {
+   
+    margin-top: 20px;
+    height: 70px;
+    writing-mode: horizontal-tb;
+}
+.slide_button button {
+    margin: 21px 93px;
+}
+/* slide contact end */
+
+/* contract form start */
+.contract_Form {
+    padding-bottom: 50px;
+}
+.con_title {
+    margin: -12px 0 23px;
+}
+.con_title h2 {
+    font-size: 22px;
+  width: 175px;
+}
+.f_control {
+    margin-bottom: 30px;
+}
+.form_btn button {     
+    margin-top: 0px;
+} 
+
+.form_container {
+    margin:0;
+    padding: 30px;
+}
+/* contract form end */
 
 
+
+/* footer start */
+.footer_top {
+    padding-bottom: 50px;
+}
+.c_contact ul li a {
+    margin-right: 10px;
+}   
+.c_right {
+    text-align: center;
+    margin-top: 20px;
+}
+.c_contact {
+    text-align: center;
+}
+.ft_cont p {
+    padding: 0 91px;
+  
+}
+.ft_cont ul li {
+    padding: 8px 16px;
+  
+}
+
+/* footer end */
+
+  
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-/* header start   */
+/* header start */
 header {
     padding: 10px 0;
+}
+.menu ul li a {
+    margin: 0px !important;
   
 }
-/* slider     */
-.s_text h1 {
-    font-size: 45px;
-   
+
+/* search start */
+.dropdown_m[data-bs-popper] {
+    left: -5px;
+    margin-top: -2.875rem;
 }
-.s_text p {
-    margin: 20px 0;
-} 
+/* search end */
+/* header end */
 
 
-
-/* about start */
-.a_text h2 {
-    margin: 20px 0 0 !important;
+/* banner start */
+.b_slider {
+    margin: 140px 0 140px;
 }
+.b_item h2 {
+    font-size:50px;
+}
+.b_item p {
+    line-height: 30px;
+    padding-right:90px;
+}
+/* banner end */
+
+/* welcome section start */
+.welcome {
+    padding: 0 0 80px;
+}
+.arrow {
+    width: 2px;
+    height: 40px;
+}
+.w_des p {
+    margin: 40px 0 80px !important;
+}
+.C_item {
+    margin: 25px 0 0;
+}
+.C_item p{
+    padding: 0px 40px !important;
+}
+
+/* about */
 .a_text {
-    padding-left: 0px;
+    padding-left: 0px !important;
+}
+.about{
+    margin-top: 70px;
     text-align: center;
 }
-    
 .a_text p {
-    margin: 20px 0 0;
-    line-height: 30px;
-    word-spacing: 1px;
+    text-align: justify;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px !important;
 }
-.a_btn {
-    margin: 30px 0 0;
+/* about */
+/* welcome section end */
+
+/* recent work start */
+.recent_work {
+    padding-bottom: 60px !important;
 }
+.work_category {
+    margin-top: 70px;
+}
+.work_icon {
+    margin-top: 120px !important;
+}
+.work_text {
+    padding: 20px 0;
+    margin: -93px 0;
+  
+}
+.work_icon i {
+    font-size: 55px;
+}
+/* recent work end */
+
+/* why choose start */
+
+.why_chose {
+    padding: 0 0 80px;
+}
+.w_content p {
+    line-height: 34px;
+}
+/* why choose start */
+
 /* who work start */
 .who_work {
-    padding: 0px 0 80px;
+    padding-bottom: 80px;
 }
-.work_title h1 {
-    margin: 10px 0 40px;
+.w_work_title {
+    padding-bottom: 70px;
 }
+.social_icon {  
+    margin: -340px 0 0;
+  
+}
+.social_icon ul li {
+    font-size: 28px;
+    padding: 5px 12px;
+}
+/* who work end */
+
+/* best pricing start */
+.best_pricing {
+    padding-bottom: 80px;
+}
+/* best pricing end */
+
+
+
+/* nipro template */
+.nipro_b button{
+    padding: 15px 70px !important;
+    margin-left: 40px !important;
+}
+/* nipro template */
+
+
+/* slide contact start */
+.slide_contract {
+    padding: 80px 0;
+}
+.slide_Content {
+    padding: 30px 20px;
+}
+.s_icon {
+    position: absolute;
+    margin: -640px 30px;
+}
+.slide_text{
+    text-align: center;
+}
+.slide_text h5{
+    margin-top: 20px;
+}
+.slide_text p{
+    margin-top: 20px;
+}
+.slide_button {
+    margin-top: 20px;
+    height: 70px;
+    writing-mode: horizontal-tb;
+}
+.slide_button button {
+    margin: 21px 130px;
+}
+/* slide contact end */
+
+/* contract form start */
+.contract_Form {
+    padding-bottom: 80px;
+}
+.form_container {
+    margin:0;
+    padding: 40px;
+}
+.f_control {
+    margin-bottom: 50px;
+}
+.form_btn button {
+  
+    margin-top: -30px;
+   
+}
+/* contract form end */
+
+
+
+
+
+/* footer start */
+.footer_top {
+    padding-bottom: 80px;
+}
+.ft_cont p {
+    line-height: 27px;
+    margin: 30px 0;
+    padding: 0 170px;
+    color: #ffffff;
+}
+.c_right {
+    text-align: center;
+    margin-top: 30px;
+}
+.c_contact {
+    text-align: center;
+}
+
+.footer_bottom { 
+    padding: 25px 0;
+}
+.c_right {
+    margin-top: 15px;
+}
+/* footer end */
 
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-/* slider start   */
-.s_text{
-    margin: 0 -70px 10px;
-    text-align: left;
+/* header start */
+.menu ul li a {
+    padding:0px !important;
+  
 }
-.s_text h1 {
-    font-size: 45px;
-   
+/* header end*/
+
+/* banner start */
+.b_slider {
+    margin: 140px 0 140px;
 }
-.s_text p {
-    margin: 30px 0;
-}   
-/* welcome section */
-/* about start */
+.b_item h2 {
+    font-size: 47px;
+}
+.b_item p {
+    line-height: 30px;
+    padding-right: 75px;
+}
+/* banner end */
+
+
+/* welcome start */
+.C_item p {
+    padding: 0px 5px !important;
+}
+
+
+/* about */
 .a_text {
-    padding-left: 15px;
+    padding-left:0px !important;
+}
+.a_text h2 {
+    font-size: 25px;
+    margin-bottom:5px !important;
 }
 .a_text p {
-    margin: 14px 0 0;
-    line-height: 28px;
-    word-spacing: 3px;
+    line-height: 26px !important;
+    word-spacing: 1px !important;
+    margin-bottom: 10px !important;
 }
-.a_btn {
-    margin: 8px 0 0;
+/* welcome end */
+
+/* recent work start */
+.work_icon {
+   
+    margin-top: 80px;
+ 
+}
+
+/* recent work start */
+
+/* who work start */
+.social_icon {
+   
+    margin: -270px 0 0;
+  
+}
+.social_icon ul li { 
+    font-size: 24px;
+    padding: 2px 8px;
+}
+/* who work  end */
+
+/* best pricing start */
+.s_price button {
+    padding: 5px 39px;
+  }
+ /* best pricing end */
+
+/* nipro template start  */
+.nipro_b button {
+
+    padding: 15px 60px;
+    margin-left: 1px;
+}
+/* nipro template end */
+
+
+/* contact form start */
+.form_btn button {
+  
+    margin-top: 0px;
+}  
+/* contact form end */
+
+/* slide contact start */
+.s_icon {
+    position: absolute;
+    margin: -250px 20px;
+}
+.slide_Content {
+    padding: 20px 15px;
+   
+}
+.slide_text p {
+    margin-top: 7px;
+    line-height: 27px;
+}
+.slide_button {
+    height: 308px;
+}
+.slide_button button {
+    margin: 40px 14px;
 }
 
 
+/* slide contact end */
 
+
+/* footer start */
+.ft_cont p {
+    padding: 0 90px;
+ 
 }
+/* footer end */
+}
+
+
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+
+
+    .a_text{
+        padding-left: 10px !important;
+    }
+    .a_text h2{
+        margin-bottom: 7px !important;
+    }
+    .a_text p{
+        line-height: 28px !important;
+        word-spacing: 5px !important;
+        margin-bottom: 18px !important;
+    }
+
+    /* who work start */
+    .social_icon {
+        margin: -300px 0 0;  
+    }
+    /* who work end */
+
+   /* best pricing start */
+   .s_price button {
+      padding: 5px 62px;
+    }
+   /* best pricing end */
+   /* nipro template start  */
+  .nipro_b button {
+    padding: 15px 75px;
+    margin-left: 16px;
+   }
+  /* nipro template end */
+
+   /* contact form start */
+   .form_btn button {     
+            margin-top: 0px;
+    }  
+  /* contact form end */
+
+
+  /* slide contact start */
+  .s_icon {
+    margin: -290px 20px;
+   }
+   .slide_text p {
+    margin-top: 30px;
+   }
+  .slide_button {
+    height: 396px;
+  }
+  .slide_button button {
+    margin: 62px 22px;
+   }
+  /* slide contact end */
+
+
 
 }
 
 /* Extra large devices (large desktops
 , 1400px and up)*/
 @media (min-width: 1400px) {
-    .s_text h1 {
-        font-size: 50px;
-        font-weight: 400;
-        color: #ffffff;
-    }
-    .s_text{
-        margin: 0 -70px 220px;
-        text-align: left;
-    }
-    .s_text p {
-        margin: 40px 0;
-        padding-right: 80px;
-    }
+
+/* header start */
+.menu ul li a {
+    padding:0px !important;
+  
+}
+/* header end */
+
+/* welcome */
+ /* about */
+.a_text{
+    padding-left: 55px !important;
+}
+.a_text h2{
+    text-transform: uppercase;
+    margin-bottom: 35px !important;
+}
+.a_text p{
+    line-height: 30px !important;
+    word-spacing: 5px !important;
+    margin-bottom: 30px !important;
+}
+  /* welcome */
+
+/* recent work */
+.work_icon {
+    margin-top: 130px !important;
+}
+/* recent work */
+
+/* best pricing start */
+.s_price button {
+  
+    padding: 5px 84px !important;
+}
+/* best pricing end */
+
+/* slide contact start */
+
+/* slide contact end */
+
+/* footer start */
+.ft_cont p {
+    
+    /* padding: 0 195px !important; */
+
+}
+/* footer end */
+
 }
